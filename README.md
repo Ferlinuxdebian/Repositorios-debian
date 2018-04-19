@@ -105,6 +105,13 @@ No arquivo /etc/apt/sources.list eu recomendo somente os repositório oficiais, 
 "httpredir.debian.org"  ###((ATENÇÃO SERVIÇO DESCONTINUADO, ALTERADO PARA deb.debian.org))##
 
 O site https://deb.debian.org/, não é um repositório real, mas ele sempre aponta para o mais rápido para sua geografia, além de prometer resolver problemas com servidores fora do ar, ou em manutenção, balanceamento de carga, entre outros. Acesse o site para mais detalhes. 
-Aqui eu deixo os espelhos. 
 
 As linhas deb-src e os espelhos proposed-updates estão comentados, para agilizar o processo do apt-get update, você ativa elas quando precisar, ela não precisa ficar o tempo todo ativa, e quanto ao proposed são pacotes que serão lançados ainda, se você precisar pegar um ou outro pacote que esteja com o um bug corrigido, você ativa, senão é melhor deixa-la desativada. 
+
+### Aqui eu deixo os espelhos. 
+
+### Repositórios para o Debian Jessie
+https://goo.gl/NuxAK2
+
+### Repositórios para Debian Stretch
+https://goo.gl/85UDAc
