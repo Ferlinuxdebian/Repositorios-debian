@@ -41,8 +41,10 @@ Se você tem repositórios que começam, com FTP, altere eles, lendo todo esse t
 Notícia: https://www.debian.org/News/2017/20170425
 
 ### Veja um típico repositório:
-deb http://ftp.br.debian.org/debian stable main contrib non-free
 
+```
+deb http://ftp.br.debian.org/debian stable main contrib non-free
+```
 1º item **“deb”** identifica que o repositório é de pacotes “.deb”. 
 
 2º Alguns repositórios pode usar um nome de release para apontar para uma versão 
@@ -51,13 +53,13 @@ Eu particularmente prefiro usar o codinome da distribuição no lugar de stable,
 
 
 Então o link acima:
-
-deb http://ftp.br.debian.org/debian **"stable"** main contrib non-free
-
+```
+deb http://ftp.br.debian.org/debian "stable" main contrib non-free
+```
 Ficaria assim para a versão estável atual: 
-
-deb http://ftp.br.debian.org/debian **"jessie"** main contrib non-free
-
+```
+deb http://ftp.br.debian.org/debian "jessie" main contrib non-free
+```
 Sem aspas. Isso vale para demais versões do debian como testing e unstable. 
 
 3º item **“http://ftp.br.debian.org/debian”**  é o link do servidor. 
@@ -115,3 +117,11 @@ https://goo.gl/NuxAK2
 
 ### Repositórios para Debian Stretch
 https://goo.gl/85UDAc
+
+Após configurar os espelho, rode um dos comando de sua preferência:
+
+```
+apt-get update
+aptitude update 
+apt update
+```
