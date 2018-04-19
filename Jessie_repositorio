@@ -1,0 +1,32 @@
+####        REPOSITÓRIOS DEBIAN JESSIE "deb.debian.org"
+
+
+### -----------------------------
+###Repositório (jessie) Base ###
+### -----------------------------
+deb http://deb.debian.org/debian/ jessie main contrib non-free
+#deb-src http://deb.debian.org/debian/ jessie main contrib non-free
+
+### -----------------------------
+###Repositório (jessie) security.debian.org/ ###
+### -----------------------------
+deb http://deb.debian.org/debian-security/ jessie/updates main contrib non-free
+#deb-src http://deb.debian.org/debian-security/ jessie/updates main contrib non-free
+
+### -----------------------------
+###Repositório (jessie) jessie-updates ###
+### -----------------------------
+deb http://deb.debian.org/debian/ jessie-updates main contrib non-free
+#deb-src http://deb.debian.org/debian/ jessie-updates main contrib non-free
+
+### -----------------------------
+###Repositório (jessie) proposed-updates###
+### -----------------------------
+#deb http://deb.debian.org/debian/ jessie-proposed-updates main contrib non-free
+#deb-src http://deb.debian.org/debian/ jessie-proposed-updates main contrib non-free
+
+### -----------------------------
+###Repositório (jessie) jessie-backports ###
+### -----------------------------
+deb http://deb.debian.org/debian/ jessie-backports main contrib non-free
+#deb-src http://deb.debian.org/debian/ jessie-backports main contrib non-free
