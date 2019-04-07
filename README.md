@@ -118,6 +118,9 @@ https://goo.gl/NuxAK2
 ### Repositórios para Debian Stretch
 https://goo.gl/85UDAc
 
+### Repositórios para Debian Buster
+https://bit.ly/2UlNvDT
+
 Após configurar os espelho, rode um dos comando de sua preferência:
 
 ```
