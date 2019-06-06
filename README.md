@@ -119,7 +119,7 @@ https://goo.gl/NuxAK2
 https://goo.gl/85UDAc
 
 ### Repositórios para Debian Buster
-https://bit.ly/2UlNvDT
+https://bit.ly/2K3ivmL
 
 Após configurar os espelho, rode um dos comando de sua preferência:
 
